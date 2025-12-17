@@ -120,7 +120,7 @@ When the noise and anti-noise signals interact in physical space, destructive in
 ---
 
 
-### DSP CODE:
+### DSP Code:
 
 ```
 
@@ -184,13 +184,13 @@ spl_after = 20 * np.log10(rms(residual_output) + 1e-6)
 ```
 
 ### Analysis:
+<img width="408" height="188" alt="Screenshot 2025-12-17 214757" src="https://github.com/user-attachments/assets/ee6a6a02-6460-4497-bbe2-35868fd50ba8" />
 
-![[Pasted image 20251217214809.png]]
 
-### Expected output:
-![[Pasted image 20251217215442.png]]
+### Expected output under 100% simulated environment:
+<img width="634" height="513" alt="Screenshot 2025-12-17 215434" src="https://github.com/user-attachments/assets/96234b3e-fe95-4748-ae12-a7aa2eb57437" />
 
 ### Expected FFT analysis:
-![[Pasted image 20251217215633.png]]
 
+<img width="646" height="473" alt="Screenshot 2025-12-17 215620" src="https://github.com/user-attachments/assets/1921192d-95a0-4ec3-9a1c-abba5efb5bb7" />
 
